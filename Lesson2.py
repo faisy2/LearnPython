@@ -33,3 +33,11 @@ fruit_ninja_totals=1.99
 fruit_ninja_totals*=4
 print(rating_count_totals)
 print(fruit_ninja_totals)
+
+#For these exercises, practice mixing float and integer numbers to update variables. Suppose that you're tracking the cost of app purchases for personal use, and the cost of app purchases as gifts to friends.
+personal_apps=0
+personal_apps+=1.99
+gift_apps=6.99
+gift_apps*=3
+print(personal_apps)
+print(gift_apps)

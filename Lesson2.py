@@ -41,3 +41,35 @@ gift_apps=6.99
 gift_apps*=3
 print(personal_apps)
 print(gift_apps)
+#Conversion Between Types
+# Write your code here!
+# Update the values of personal_apps and gift_apps.
+personal_apps=round(personal_apps)
+gift_apps=int(gift_apps)
+print(personal_apps)
+print(gift_apps)
+#Strings
+app_name="Minecraft: Pocket Edition"
+average_rating='4.5'
+total_ratings='522012'
+
+print (app_name)
+
+motto="Facebook's new motto is \"move fast with stable infra.\""
+print(motto)
+#String Concatenation
+facebook="Facebook's rating is"
+fb_rating_str="3.5"
+fb=facebook+" "+fb_rating_str
+print(fb)
+facebook="Facebook's rating is"
+fb_rating=3.5
+fb_rating_str=str(fb_rating)
+fb=facebook+" "+ fb_rating_str
+print(fb)
+#Multi-line Strings
+motto='''Facebook's old motto was 'move fast and break things'.'''
+motto = motto+'''
+Facebook's new motto is 'move fast with stable infra'.'''
+
+print(motto)
